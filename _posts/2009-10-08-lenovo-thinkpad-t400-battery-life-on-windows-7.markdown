@@ -1,0 +1,9 @@
+---
+layout: post
+title: Lenovo ThinkPad T400 Battery Life on Windows 7
+date: '2009-10-08 22:25:54'
+---
+
+<strong>UPDATE:<em> </em></strong><em>Since posting, Lenovo has now released full Windows 7 support and drivers for the T400 including a working switchable graphics driver. Just download and run System Update 4.0 from their website. If you have previously disabled the ATI card in the BIOS to work around the battery drain problem, you will need to re-enable it in order for System Update to recognise and offer the switchable graphics driver.</em>
+
+I've been using Windows 7 for a while now (since RC1) on my Lenovo T400 ThinkPad and have noticed of late the abysmal battery life I have been getting. It only has the 4 cell battery but even so, in Vista I was getting 2:30 - 3 hours of use when on battery. Just recently with Win 7 I had been struggling to get even an 1 hour so I knew something must be up. I had the ThinkVantage power manager app installed from the Lenovo Windows 7 beta drivers page, but wondered if (being beta) this was causing a problem so I decided to reinstall Win 7 from scratch and see what the story was with no beta drivers (just the ones that come via Windows Update). Unfortunately, it was the same as before - maybe a little higher at 1 hour 15 mins but still way under what I was getting with Vista. In a bit of an Ah-ha! moment, and as there is no switchable graphics driver for Win 7 yet, I wondered if the discreet ATI card may be draining the power. I rebooted into the BIOS and forced it to use the integrated graphics chipset (Intel) and now I am back in the 2 hour + zone for battery life. Much better!
