@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+[Conference talk notes](conference-talks)
