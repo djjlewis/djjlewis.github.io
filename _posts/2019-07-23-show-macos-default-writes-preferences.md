@@ -11,9 +11,9 @@ I then wondered if there was as single go-to list of all possible settings (alth
 exactly) and found this [SO question](https://apple.stackexchange.com/questions/251356/how-to-get-a-list-of-available-defaults-write-terminal-commands-for-os-x-el-ca?newreg=657aae87b1374367bc8d626d26f997d4)
 asking the same.
 
-Unfortunately it's been closed as too broad (not exactly sure why as seems like a perfectly valid question to me, but he
-that's SO sometimes for you!), although there is a nugget in the comments about using `defaults read`. If you try running
-this, it could be a bit overwhelming as it clocks in at over 50,000 lines on my system!
+Unfortunately it's been closed as too broad (not exactly sure why as seems like a perfectly valid question to me, but
+hey that's SO sometimes for you!), although there is a nugget in the comments about using `defaults read`. If you try
+running this, it could be a bit overwhelming as it clocks in at over 50,000 lines on my system!
 
 Another clue in that post however pointed to the fact that the actual settings are stored under `~/Library/Preferences`
 and a quick `ls` in here will show various `.plist` files. If you try and read these, you'll just get gobbledygook as
